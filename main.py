@@ -1,5 +1,5 @@
 import sqlite3
-from functions.data_manager import open_excel_to_table_sql
+from consciousness.functions.data_manager import open_excel_to_table_sql
 
 class DatabaseManager:
     def __init__(self, db_name):
