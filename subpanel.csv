@@ -49,4 +49,4 @@ id,controller_id,sensing_controller_id,name,max_amps,phases,derate_nonev_amps,de
 189,196,,SP1,100.0,AB,0.0,,0
 193,204,,SP1,100.0,AB,0.0,,0
 197,203,,SP1,100.0,AB,0.0,,0
-199,206,,"",200.0,ABC,0.0,,0
+199,206,,SP1,200.0,ABC,0.0,,0
