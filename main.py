@@ -54,7 +54,7 @@ class InventoryManager:
         );
         ''')
 
-        # Insert new BOM items for VH
+        # Insert new BOM items
         bom_items = [
             "Small Black Box",
             "Square Foam",
@@ -62,7 +62,7 @@ class InventoryManager:
             "Power Supply w/ NA Blade",
             "CT200 Coil Box",
             "CT200 Coil",
-            "WiFi Extender",
+            "WiFi Extender w/ manual",
             "BeagleBone",
             "PCB",
             "VH Front Case",
@@ -74,7 +74,9 @@ class InventoryManager:
             "USB Jumper",
             "Zip-Ties",
             "Velcro (Pairs)",
-            "QC Sticker"
+            "QC Sticker",
+            "Ethernet Cable",
+            "Plastic Bag sm."
         ]
 
         cursor.executemany(
@@ -90,7 +92,7 @@ class InventoryManager:
             ("VH", "Power Supply w/ NA Blade", 1),
             ("VH", "CT200 Coil Box", 1),
             ("VH", "CT200 Coil", 2),
-            ("VH", "WiFi Extender", 1),
+            ("VH", "WiFi Extender w/ manual", 1),
             ("VH", "BeagleBone", 1),
             ("VH", "PCB", 1),
             ("VH", "VH Front Case", 1),
@@ -103,6 +105,10 @@ class InventoryManager:
             ("VH", "Zip-Ties", 2),
             ("VH", "Velcro (Pairs)", 4),
             ("VH", "QC Sticker", 1),
+            ("VH", "Ethernet Cable", 1),
+            ("VH", "Plastic Bag sm.", 1),
+
+
             ("VP", "Rogowski Coil", 3),
             ("VP", "Power Adapter", 1),
             ("VP", "Light Pipe", 9),
