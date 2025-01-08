@@ -185,3 +185,4 @@ id,subpanel_id,breaker_number,phases,max_amps
 442,200,7,AB,50.0
 443,200,8,AB,50.0
 444,201,1,AB,40.0
+445,11,11,AB,40.0
